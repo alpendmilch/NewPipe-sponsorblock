@@ -1,8 +1,6 @@
 # NewPipe x SponsorBlock x Return YouTube Dislike
 A fork of [NewPipe](https://github.com/TeamNewPipe/NewPipe) with [SponsorBlock](https://sponsor.ajay.app/) and [Return YouTube Dislike](https://returnyoutubedislike.com/) functionality.
 
-![01](.github/images/preview01.gif)
-![02](.github/images/preview02.gif)
 
 The implementation is still a bit basic but it generally works pretty well.
 
