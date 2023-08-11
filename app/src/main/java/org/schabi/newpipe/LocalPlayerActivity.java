@@ -194,7 +194,7 @@ public class LocalPlayerActivity extends AppCompatActivity implements Player.Lis
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && (isInMultiWindow())) {
             getWindow().setStatusBarColor(Color.TRANSPARENT);
-            getWindow().setNavigationBarColor(Color.TRANSPARENT);
+            getWindow().setNavigationBarColor(Color.BLACK);
         }
         getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }

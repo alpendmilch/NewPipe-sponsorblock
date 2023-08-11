@@ -1968,7 +1968,7 @@ public final class VideoDetailFragment
 
         if (isInMultiWindow || isFullscreen()) {
             activity.getWindow().setStatusBarColor(Color.TRANSPARENT);
-            activity.getWindow().setNavigationBarColor(Color.TRANSPARENT);
+            activity.getWindow().setNavigationBarColor(Color.BLACK);
         }
         activity.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }

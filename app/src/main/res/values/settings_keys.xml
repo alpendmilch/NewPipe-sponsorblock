@@ -87,7 +87,7 @@
     <string name="start_main_player_fullscreen_key">start_main_player_fullscreen_key</string>
 
     <string name="autoplay_key">autoplay_key</string>
-    <string name="autoplay_value">@string/autoplay_wifi_key</string>
+    <string name="autoplay_value">@string/autoplay_never_key</string>
     <string name="autoplay_always_key">autoplay_always_key</string>
     <string name="autoplay_wifi_key">autoplay_wifi_key</string>
     <string name="autoplay_never_key">autoplay_never_key</string>
@@ -118,7 +118,7 @@
     </string-array>
 
     <string name="default_resolution_key">default_resolution</string>
-    <string name="default_resolution_value">720p60</string>
+    <string name="default_resolution_value">360p</string>
     <string name="show_higher_resolutions_key">show_higher_resolutions</string>
     <string name="default_popup_resolution_key">default_popup_resolution</string>
     <string name="default_popup_resolution_value">480p</string>
@@ -191,7 +191,7 @@
     </string-array>
 
     <string name="left_gesture_control_key">left_gesture_control</string>
-    <string name="default_left_gesture_control_value">@string/brightness_control_key</string>
+    <string name="default_left_gesture_control_value">@string/volume_control_key</string>
     <string name="brightness_control_key">brightness_control</string>
     <string name="volume_control_key">volume_control</string>
     <string name="none_control_key">none_control</string>
