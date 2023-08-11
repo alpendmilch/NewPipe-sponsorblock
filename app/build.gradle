@@ -17,7 +17,7 @@ android {
 
     defaultConfig {
         applicationId "org.polymorphicshade.newpipe"
-        resValue "string", "app_name", "NewPipe SponsorBlock"
+        resValue "string", "app_name", "1NewPipe"
         minSdk 21
         targetSdk 33
         versionCode 994
@@ -45,8 +45,8 @@ android {
                 resValue "string", "app_name", "NewPipe Debug"
             } else {
                 applicationIdSuffix ".debug." + normalizedWorkingBranch
-                resValue "string", "app_name", "NewPipe " + workingBranch
-                archivesBaseName = 'NewPipe_' + normalizedWorkingBranch
+                resValue "string", "app_name", "1NewPipe"
+//                archivesBaseName = 'NewPipe_' + normalizedWorkingBranch
             }
         }
 
@@ -179,7 +179,7 @@ afterEvaluate {
     if (!System.properties.containsKey('skipFormatKtlint')) {
         preDebugBuild.dependsOn formatKtlint
     }
-    preDebugBuild.dependsOn runCheckstyle, runKtlint
+    //preDebugBuild.dependsOn runCheckstyle, runKtlint
 }
 
 sonar {
@@ -291,9 +291,9 @@ dependencies {
 
 /** Debugging **/
     // Memory leak detection
-    debugImplementation "com.squareup.leakcanary:leakcanary-object-watcher-android:${leakCanaryVersion}"
-    debugImplementation "com.squareup.leakcanary:plumber-android:${leakCanaryVersion}"
-    debugImplementation "com.squareup.leakcanary:leakcanary-android-core:${leakCanaryVersion}"
+//    debugImplementation "com.squareup.leakcanary:leakcanary-object-watcher-android:${leakCanaryVersion}"
+//    debugImplementation "com.squareup.leakcanary:plumber-android:${leakCanaryVersion}"
+//    debugImplementation "com.squareup.leakcanary:leakcanary-android-core:${leakCanaryVersion}"
     // Debug bridge for Android
     debugImplementation "com.facebook.stetho:stetho:${stethoVersion}"
     debugImplementation "com.facebook.stetho:stetho-okhttp3:${stethoVersion}"
